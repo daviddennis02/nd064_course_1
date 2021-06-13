@@ -1,0 +1,11 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://172.20.10.2:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:172.20.10.2 - - [13/Jun/2021 14:33:27] "[33mGET /awol HTTP/1.1[0m" 404 -
+INFO:app:Status request successful
+INFO:werkzeug:172.20.10.2 - - [13/Jun/2021 14:33:34] "GET /status HTTP/1.1" 200 -
+INFO:app:Metrics request successful
+INFO:werkzeug:172.20.10.2 - - [13/Jun/2021 14:33:49] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.2 - - [13/Jun/2021 14:34:58] "[33mGET /awol HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.2 - - [13/Jun/2021 14:35:14] "[33mGET /awol HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.2 - - [13/Jun/2021 14:35:28] "[33mGET /awol/lauf HTTP/1.1[0m" 404 -
